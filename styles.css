@@ -1,0 +1,147 @@
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #212121;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #444;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFD700;
+  text-transform: uppercase;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #FFD700;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+#hero h1 {
+  font-size: 52px;
+  color: #FFD700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+#hero button {
+  background-color: #FFD700;
+  color: #121212;
+  border: none;
+  padding: 18px 35px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+#hero button:hover {
+  background-color: #FFB800;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+}
+
+/* Roadmap Section */
+#roadmap ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+#roadmap ul li {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#roadmap ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(255, 165, 0, 0.6);
+}
+
+/* Crypto Ticker */
+.crypto-ticker {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFD700;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.crypto-ticker div {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.crypto-ticker div:hover {
+  transform: scale(1.05);
+  background-color: #2a2a2a;
+}
+
+/* Footer */
+footer {
+  background-color: #212121;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+/* Meme Gallery */
+.meme-gallery img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+.meme-gallery img:hover {
+  transform: scale(1.05);
+}
